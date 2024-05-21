@@ -69,3 +69,28 @@ body{
         max-width: 90%; /* Reduce el tamaño máximo al 90% del contenedor para pantallas medianas */
     }
 }
+.cartagithub {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.cartagithub .card-body {
+    padding: 1rem;
+}
+
+.cartagithub img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .cartagithub .card-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cartagithub img {
+        margin-bottom: 1rem;
+    }
+}
