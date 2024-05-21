@@ -61,12 +61,12 @@ body{
 }
 @media (max-width: 576px) {
     .fotoperfil {
-        max-width: 80%; /* Reduce el tamaño máximo al 80% del contenedor */
+        max-width: 80%;
     }
 }
 @media (max-width: 768px) {
     .fotoperfil {
-        max-width: 90%; /* Reduce el tamaño máximo al 90% del contenedor para pantallas medianas */
+        max-width: 90%;
     }
 }
 .cartagithub {
@@ -88,9 +88,14 @@ body{
     .cartagithub .card-body {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     
     .cartagithub img {
         margin-bottom: 1rem;
+    }
+    
+    .cartagithub .text-container {
+        text-align: center;
     }
 }
