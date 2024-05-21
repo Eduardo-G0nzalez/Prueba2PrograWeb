@@ -1,0 +1,71 @@
+.genio{
+    padding-left: 10%;
+}
+.img-container {
+    border: 20px solid #ffffff; 
+    background-color: #ffffff; 
+    padding: 20px; 
+    overflow: hidden; 
+}
+
+.img-container img {
+    width: auto; 
+    max-width: 100%; 
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    z-index: 1;
+}
+.carousel-caption {
+    color: white;
+    z-index: 2; 
+}
+.cartagithub{
+    background-color:navy;
+}
+.tparrafo{
+    color: white;
+}
+.logoduoc{
+    width: 30%;
+    height: 30%;
+}
+
+.logopython{
+    width: 30%;
+    height: 30%;
+}
+
+.logojava{
+    width: 20%;
+    height: 20%;
+}
+
+.logosql{
+    width: 30%;
+    height: 30%;
+}
+
+.logodesarrolloweb{
+    width: 50%;
+    height: 50%;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+@media (max-width: 576px) {
+    .fotoperfil {
+        max-width: 80%; /* Reduce el tamaño máximo al 80% del contenedor */
+    }
+}
+@media (max-width: 768px) {
+    .fotoperfil {
+        max-width: 90%; /* Reduce el tamaño máximo al 90% del contenedor para pantallas medianas */
+    }
+}

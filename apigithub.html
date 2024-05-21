@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <title>Eduardo González</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/logoportfolio.png" class="logo" alt="logoportfolio"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-5">
+        <h1 class="mt-4">Datos usuario GitHub</h1>
+        <div class="card cartagithub">
+            <div class="card-body d-flex align-items-center">
+                <img src="./assets/img/githubppic.jpg" alt="Foto de perfil de GitHub" class="me-4" style="max-width: 150px;">
+                <div>
+                    <p><strong class="tparrafo">Nombre:</strong> <span id="nombre" class="text-info"></span></p>
+                    <p><strong class="tparrafo">Biografía:</strong> <span id="bio" class="text-info"></span></p>
+                    <p><strong class="tparrafo">Seguidores:</strong> <span id="seguidores" class="text-info"></span></p>
+                    <p><strong class="tparrafo">Repositorios:</strong> <span id="repositorios" class="text-info"></span></p>
+                    <p><strong class="tparrafo"><a href="https://github.com/Eduardo-G0nzalez" target="_blank">Ir a perfil de GitHub</a></strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/scriptsgithub.js"></script>
+</body>
+</html>
